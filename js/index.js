@@ -124,43 +124,37 @@ exit.addEventListener("click", (e) => {
 })
 
 $('#team').owlCarousel({
-    loop:false,
+    loop:true,
+    nav:false,
     margin:10,
     responsiveClass:true,
     responsive:{
         0:{
-            items:1,
-            nav:true
+            items:1
         },
         600:{
-            items:1,
-            nav:true
+            items:1
         },
         1000:{
-            items:3,
-            nav:false,
-            loop:true
+            items:3
         }
     }
 })
 
 $('#notices').owlCarousel({
-    loop:false,
+    loop:true,
+    nav:false,
     margin:10,
     responsiveClass:true,
     responsive:{
         0:{
-            items:1,
-            nav:true
+            items:1
         },
         600:{
-            items:1,
-            nav:true
+            items:1
         },
         1000:{
-            items:3,
-            nav:false,
-            loop:true
+            items:3
         }
     }
 })

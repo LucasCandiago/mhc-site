@@ -97,7 +97,6 @@ a {
 }
 
 .about {
-  margin-inline: 10%;
   padding: 10%;
   padding-block: 5%;
   padding-bottom: 7%;
@@ -107,7 +106,6 @@ a {
 
 .forma1 {
   width: 83%;
-  margin-inline: -33%;
   float: right;
 }
 
@@ -292,6 +290,11 @@ footer {
 
   .about {
     margin-top: 15%;
+    margin-inline: 5%;
+  }
+
+  .forma1 {
+    margin-inline: -21%;
   }
 
   .direitos {
@@ -314,25 +317,25 @@ footer {
   .we h1 {
     width: 60%;
   }
-  
+
   .we p {
     padding-inline: 10%;
   }
-  
+
   .loc div h1 {
     font-size: 1.5em;
   }
-  
+
   .local h2 {
     font-size: 0.8em;
   }
-  
+
   .onde {
     width: 90%;
     margin: auto;
     text-align: center;
   }
-   
+
   .redes {
     width: 40%;
   }
@@ -362,7 +365,7 @@ footer {
   .loc-img {
     width: 15%;
     display: none;
-  }    
+  }
 }
 
 @media (min-width: 950px) {
@@ -398,6 +401,11 @@ footer {
 
   .about {
     margin-top: 20%;
+    margin-inline: 5%;
+  }
+
+  .forma1 {
+    margin-inline: -33%;
   }
 
   .types {

@@ -124,7 +124,7 @@ exit.addEventListener("click", (e) => {
 })
 
 $('#team').owlCarousel({
-    loop:true,
+    loop:false,
     nav:false,
     margin:10,
     responsiveClass:true,

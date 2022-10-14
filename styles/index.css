@@ -75,14 +75,7 @@ a {
 }
 
 .menu-list p {
-  padding: 1%;
-  padding-left: 6%;
   margin-block: 2%;
-  border: 1px solid #ffffff00;
-}
-
-.menu-list p:hover {
-  border: 1px solid #ca9811;
 }
 
 .menu-list p a {
@@ -394,8 +387,16 @@ footer {
   }
 
   .menu-list p {
-    width: 20%;
+    padding: 1%;
+    padding-left: 6%;
+    margin-block: 2%;
+    border: 1px solid #ffffff00;
   }
+  
+  .menu-list p:hover {
+    border: 1px solid #ca9811;
+  }
+  
 
   .about {
     margin-top: 20%;

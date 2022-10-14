@@ -270,9 +270,9 @@ footer {
   }
 
   .menu-list p {
-    margin: auto;
+    margin: 2% auto;
     text-align: center;
-    width: 30%;
+    width: 100%;
   }
 
   .exit {

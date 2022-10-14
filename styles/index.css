@@ -268,12 +268,22 @@ footer {
     font-size: 0.9em;
   }
 
+  .menu-list {
+    padding-bottom: 4%;
+  }
+
   .menu-list div img {
-    width: 25%;
+    display: none;
   }
 
   .menu-list p {
+    margin: auto;
+    text-align: center;
     width: 30%;
+  }
+
+  .exit {
+    margin: auto;
   }
 
   .about {
@@ -294,7 +304,7 @@ footer {
     border: 1px solid #ca9811;
     width: 25%;
     padding-inline: 3%;
-    text-align: start;
+    text-align: center;
   }
 
   .text {

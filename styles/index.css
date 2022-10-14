@@ -104,18 +104,6 @@ a {
   box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
 }
 
-.forma1 {
-  width: 83%;
-  float: right;
-}
-
-.forma2 {
-  width: 83%;
-  margin-inline: -33%;
-  float: left;
-  margin-top: 6%;
-}
-
 .services {
   background-image: url(../img/Camada\ 11\ copiar.png);
   background-position: center top;
@@ -293,8 +281,8 @@ footer {
     margin-inline: 5%;
   }
 
-  .forma1 {
-    margin-inline: -21%;
+  .forma1, .forma2 {
+    display: none;
   }
 
   .direitos {
@@ -405,7 +393,15 @@ footer {
   }
 
   .forma1 {
+    width: 83%;
+    float: right;
+  }
+  
+  .forma2 {
+    width: 83%;
     margin-inline: -33%;
+    float: left;
+    margin-top: 6%;
   }
 
   .types {

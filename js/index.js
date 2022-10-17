@@ -9,6 +9,8 @@ const menuList = document.querySelector(".menu-list");
 const logo = document.querySelector(".logo"); 
 const exit = document.querySelector(".exit");
 
+const links = document.querySelectorAll(".link");
+
 public.addEventListener("click", (e) => {    
     text.innerHTML = "";
 
@@ -122,6 +124,17 @@ exit.addEventListener("click", (e) => {
     menu.classList.add("active");
     logo.classList.add("active");
 })
+
+for (link of links) {
+    link.addEventListener("click", (e) => {
+        menuList.classList.remove("active");
+        menu.classList.remove("remove");
+        logo.classList.remove("remove");
+        menuList.classList.add("remove");
+        menu.classList.add("active");
+        logo.classList.add("active");
+    })
+}
 
 $('#team').owlCarousel({
     loop:false,

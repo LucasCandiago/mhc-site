@@ -242,6 +242,16 @@ footer {
   padding: 10% 0;
 }
 
+.icon {
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+}
+
+.icon a img {
+  width: 100%;
+}
+
 @media (max-width: 900px) {
   .logo {
     width: 25%;
@@ -284,7 +294,8 @@ footer {
     margin-inline: 5%;
   }
 
-  .forma1, .forma2 {
+  .forma1,
+  .forma2 {
     display: none;
   }
 
@@ -357,6 +368,10 @@ footer {
     width: 15%;
     display: none;
   }
+
+  .icon {
+    width: 12%;
+  }
 }
 
 @media (min-width: 950px) {
@@ -392,11 +407,11 @@ footer {
     margin-block: 2%;
     border: 1px solid #ffffff00;
   }
-  
+
   .menu-list p:hover {
     border: 1px solid #ca9811;
   }
-  
+
 
   .about {
     margin-top: 20%;
@@ -407,7 +422,7 @@ footer {
     width: 83%;
     float: right;
   }
-  
+
   .forma2 {
     width: 83%;
     margin-inline: -33%;
@@ -501,4 +516,7 @@ footer {
     margin: 0 5% 0 0;
   }
 
+  .icon {
+    width: 3%;
+  }
 }

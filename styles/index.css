@@ -20,6 +20,7 @@ p,
 a {
   font-family: "Metropolis";
   text-align: justify;
+  line-height: 1.8;
 }
 
 .bg-video {
@@ -149,11 +150,11 @@ a {
 
 .partners {
   border: 1px solid #ca9811;
-  margin: 10%;
+  margin: 10% 5%;
 }
 
 .people {
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding-top: 3%;
   margin-top: -10%;
@@ -455,11 +456,11 @@ footer {
   }
 
   .we h1 {
-    width: 40%;
+    width: 35%;
   }
 
   .we p {
-    padding-inline: 25%;
+    padding: 0 17% 0 20%;
   }
 
   #notices .owl-item:nth-child(2) {
@@ -482,8 +483,8 @@ footer {
   }
 
   .local {
-    padding: 2% 6%;
-    width: 20%;
+    padding: 2% 4%;
+    width: 25%;
   }
 
   .local:nth-child(3) {
@@ -497,12 +498,13 @@ footer {
   }
 
   .local p {
-    font-size: 0.7em;
-    line-height: 1em;
+    margin-top: 10%;
+    font-size: 0.9em;
+    line-height: 1.8;
   }
 
   .loc-img {
-    width: 15%;
+    width: 12%;
   }
 
   .redes {
@@ -520,3 +522,4 @@ footer {
     width: 3%;
   }
 }
+
